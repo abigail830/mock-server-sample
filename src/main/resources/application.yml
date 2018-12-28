@@ -1,0 +1,12 @@
+server:
+  port: 9080
+spring:
+  main:
+    allow-bean-definition-overriding: true
+stubrunner:
+  StubsMode: LOCAL
+  workOffline: true
+  ids: com.github.abigail830:mock-server-sample:+:stubs:6565
+  repositoryRoot: https://gitlab.com/cmb-avatar/mock-server-sample
+  server:
+    port: 0
