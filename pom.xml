@@ -19,6 +19,26 @@
 		<spring-cloud.version>Greenwich.RC2</spring-cloud.version>
 	</properties>
 
+	<scm>
+		<connection>scm:git:https://github.com/abigail830/mock-server-sample.git</connection>
+		<developerConnection>scm:git:https://github.com/abigail830/mock-server-sample.git</developerConnection>
+		<url>https://github.com/abigail830/mock-server-sample</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>maven-snapshots</name>
+			<url>http://nexus.saraqian.cn/repository/maven-snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>nexus</id>
+			<name>maven-releases</name>
+			<url>http://nexus.saraqian.cn/repository/maven-releases/</url>
+		</repository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
