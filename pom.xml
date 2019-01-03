@@ -91,9 +91,9 @@
 				<configuration>
 					<!--<targetContractDirectory>contracts/streamContract</targetContractDirectory>-->
 					<restEndPoints>
-						<!--<RestEndPoint>-->
-						<!--<baseUrl>http://127.0.0.1:8080/contracts/ContractProvider</baseUrl>-->
-						<!--</RestEndPoint>-->
+						<RestEndPoint>
+						<baseUrl>http://contract-listener.saraqian.cn/v1/streamContracts</baseUrl>
+						</RestEndPoint>
 					</restEndPoints>
 				</configuration>
 			</plugin>
