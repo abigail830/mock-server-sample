@@ -92,7 +92,7 @@
 					<!--<targetContractDirectory>contracts/streamContract</targetContractDirectory>-->
 					<restEndPoints>
 						<RestEndPoint>
-						<baseUrl>http://contract-listener.saraqian.cn/v1/streamContracts</baseUrl>
+						<baseUrl>http://ec2-52-80-39-11.cn-north-1.compute.amazonaws.com.cn:8093/v1/streamContracts</baseUrl>
 						</RestEndPoint>
 					</restEndPoints>
 				</configuration>
